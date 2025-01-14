@@ -6,7 +6,10 @@ describe("Rei", function () {
   let rei: any;
 
   beforeEach(async function () {
+    // load Rei.sol, auto detects under /contracts
     Rei = await ethers.getContractFactory("Rei");
+
+    // deploy the contract
     rei = await Rei.deploy();
   });
 
