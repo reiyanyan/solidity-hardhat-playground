@@ -1,0 +1,16 @@
+{
+  "name": "solidity-hh-wo-viem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "hardhat init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18"
+  }
+}
