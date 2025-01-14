@@ -2,15 +2,10 @@ import { expect } from "chai";
 import { ethers } from "hardhat";
 
 describe("Rei", function () {
-  //   const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
-  //   const ONE_GWEI = 1_000_000_000; // lockedAmount
-
   let Rei: any;
   let rei: any;
 
   beforeEach(async function () {
-    // unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
-
     Rei = await ethers.getContractFactory("Rei");
     rei = await Rei.deploy();
   });
